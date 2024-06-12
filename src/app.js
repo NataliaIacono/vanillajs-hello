@@ -2,7 +2,7 @@ import "./style.css";
 
 window.onload = () => {
   document.getElementById("excuse").innerHTML = generateExcuse();
-  console.log("Hello Rigo from the console!");
+  //console.log("Hello Rigo from the console!");
 };
 
 let generateExcuse = () => {
