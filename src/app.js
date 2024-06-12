@@ -32,3 +32,7 @@ let generateExcuse = () => {
     where[whereIndex]
   );
 };
+
+document.querySelector(".button").addEventListener("click", event => {
+  document.getElementById("excuse").innerHTML = generateExcuse();
+});
